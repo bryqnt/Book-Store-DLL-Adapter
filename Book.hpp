@@ -1,26 +1,18 @@
 #ifndef BOOK_HPP
 #define BOOK_HPP
 
-
-/**
- * You do not need to edit this file,
- * 	though you can if you wish to add additional helper methods
- */
-
-
-//
 #include <string>
 
 
-//
+
 namespace CPSC131::BookStore
 {
 	class Book
 	{
-		//
+		
 		public:
 			
-			//	CTORS
+			
 			Book();
 			Book(std::string title, std::string author, std::string isbn, size_t price_cents = 0, size_t stock_available = 0);
 			
