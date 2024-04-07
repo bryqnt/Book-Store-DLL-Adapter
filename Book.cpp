@@ -1,19 +1,11 @@
-/**
- * You do not need to edit this file,
- * 	though you can if you wish to add additional helper methods
- */
-
-
-//
 #include "Book.hpp"
 
 
-//
 #include <iostream>
 #include <string>
 
 
-//
+
 using std::cout, std::cin, std::endl;
 using std::string;
 
@@ -21,7 +13,7 @@ using std::string;
 //
 namespace CPSC131::BookStore
 {
-	//
+	
 	Book::Book()
 	{
 		cout << "Empty Book created" << endl;
